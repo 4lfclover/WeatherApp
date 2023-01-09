@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <title>Weather App</title>
+    </head>
+    <body>
+<!-- Background Image -->
+<video autoplay muted loop id="myVideo">
+    <source src="Cloudy.mp4" type="video/mp4">
+  </video>
+
+<!-- Header -->
+<div class="parentContainer">
+    <div class="childContainer">
+        <header>
+
+            <h1>Weather App</h1>
+        </header>
+
+<!-- Main Section -->
+<div class="main">
+       <input id="cityInput" type="text" placeholder="City">
+       <span onclick="addCity()" class="addBtn">Search</span>
+       <h1 class="city"></h1>
+        <p>
+            Temp:
+            <span class="tempf"></span>
+        </p>
+        <p>
+            Condition:
+            <span class="condition"></span>
+        </p>
+        <p>
+            High:
+            <span class="highTemp"></span>
+        </p>
+        <p>
+            Low:
+            <span class="lowTemp"></span>
+        </p>
+</div>
+<!-- Hourly Weather -->
+<div class="scroller">
+    <h1>Today's Weather</h1>
+        <div class="scrolling-wrapper">
+            <div class="card"><h2>Today</h2></div>
+            <div class="card"><h2>Monday</h2></div>
+            <div class="card"><h2>Tuesday</h2></div>
+            <div class="card"><h2>Wednesday</h2></div>
+            <div class="card"><h2>Thursday</h2></div>
+            <div class="card"><h2>Friday</h2></div>
+            <div class="card"><h2>Saturday</h2></div>
+            <div class="card"><h2>Sunday</h2></div>
+        </div>
+</div>
+
+<!-- 7 Day Forecast -->
+    <div class="weeklyforecast">
+        <h1>7-Day Forecast</h1>
+        <table>
+            <tbody>
+                <tr>
+                    <td>Today</td>
+                    <td>Icon</td>
+                    <td>High</td>
+                    <td>Low</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    </div>
+</div>
+
+
+       <script src="main.js"></script>
+    </body>
+</html> 

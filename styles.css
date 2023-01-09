@@ -1,0 +1,83 @@
+/* General Styles */
+body{
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 17px;
+}
+
+table { 
+    width: 100%;
+    padding: 30px;
+}
+
+td {
+    border: 1px solid black;
+
+  }
+header {
+    background-color: rgba(0, 0, 0, 0.6);
+    /* border: 1px solid black; */
+    border-radius: 15px;
+    
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+  }
+
+/* Containers */
+.parentContainer{
+    display: flex;
+    justify-content: center;
+    height: 1000px;
+
+}
+.childContainer{
+    height: 100%;
+    width: 50%;
+    text-align: center;
+    align-content: center;
+    margin-top: 50px;
+
+}
+.scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    padding: 20px;
+}
+.card {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 3px solid green;
+    
+}
+
+.main {
+    /* border: 1px solid black; */
+    padding: 25px;
+    background-color:rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+}
+
+.scroller {
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.weeklyforecast {
+    background-color: rgba(0, 0, 0, 0.6);
+    /* border: 1px solid black; */
+    height: 50%;
+    border-radius: 20px;
+}
+
